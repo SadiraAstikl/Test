@@ -1,5 +1,5 @@
 import { Avatar, Box, Button, Card, Checkbox, FormControlLabel, Grid, Pagination, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Typography } from '@mui/material';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import type { InfoType } from '../types/InfoType';
 
 const infos: InfoType[] = [
