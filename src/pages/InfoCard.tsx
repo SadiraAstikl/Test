@@ -69,7 +69,7 @@ export default function InfoCard(): JSX.Element {
       if (isSelected) {
         return prevSelectedRows.filter((rowIndex: number) => rowIndex !== index);
       }
-      return [...prevSelectedRows, index];
+      return [...prevSelectedRows, index] as number[];
     });
   };
 
